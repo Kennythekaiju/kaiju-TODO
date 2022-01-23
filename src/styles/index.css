@@ -10,3 +10,58 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color:	#C0C0C0
+}
+body{
+    background-color: #c2deef;
+}
+.card {
+    align-items: center;
+    width:60%;
+    margin: auto;
+    background-color: #c2deef;
+    width: 75%;
+
+   
+}
+.card-body{
+    border: black 1px solid;
+    
+    
+}
+
+li{
+    
+    color:black;
+    background-color: #C0C0C0;
+    padding:25px 15px 15px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 90%;
+    justify-content: space-between;
+
+    list-style: none;
+    margin-left: -4%;
+    margin-right: 11%;
+    display: flex;
+    align-content: space-between;
+
+}
+
+i{
+  opacity: 0;
+  justify-content: space-between;
+
+}
+li:hover{
+    background-color: #E8E8E8;
+}
+
+li:hover>i{
+    opacity: 5;
+    color: red;
+}
